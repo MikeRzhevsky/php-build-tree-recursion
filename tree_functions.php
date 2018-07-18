@@ -2,12 +2,7 @@
 /*
 @MikeRzhevsky miker.ru@gmail.com
  */
-//TODO
-function console_log( $data ){
-    echo '<script>';
-    echo 'console.log('. json_encode( $data ) .')';
-    echo '</script>';
-}//todo
+
 class DB
 {
     protected $link;
